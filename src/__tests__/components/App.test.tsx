@@ -19,7 +19,7 @@ describe('App', () => {
         </ThemeProvider>
       </QueryClientProvider>
     );
-    expect(screen.getByText(/search/i)).toBeInTheDocument();
+    expect(screen.getByText(/search/)).toBeInTheDocument();
     fireEvent.click(screen.getByText(/About/i));
     expect(screen.getByText(/Tech Challenge/i)).toBeInTheDocument();
   });
