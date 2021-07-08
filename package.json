@@ -26,6 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --verbose",
+    "test:ci": "CI=true yarn test",
     "prettier": "prettier --write ."
   },
   "eslintConfig": {
@@ -66,6 +67,10 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "pre-commit": "^1.2.2",
     "prettier": "^2.3.2"
-  }
+  },
+  "pre-commit": [
+    "test:ci"
+  ]
 }
