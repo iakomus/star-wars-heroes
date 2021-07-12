@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Diego Lavayen Alarcon",
-  "homepage": "http://iakomus.github.io/star-wars-hero",
+  "homepage": "https://iakomus.github.io/star-wars-hero",
   "dependencies": {
     "@axe-core/react": "^4.2.2",
     "@reduxjs/toolkit": "^1.6.0",
