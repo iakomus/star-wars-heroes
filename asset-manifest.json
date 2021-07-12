@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/star-wars-hero/static/css/main.8523f3ea.chunk.css",
+    "main.js": "/star-wars-hero/static/js/main.edcdde26.chunk.js",
+    "main.js.map": "/star-wars-hero/static/js/main.edcdde26.chunk.js.map",
+    "runtime-main.js": "/star-wars-hero/static/js/runtime-main.1c5af18a.js",
+    "runtime-main.js.map": "/star-wars-hero/static/js/runtime-main.1c5af18a.js.map",
+    "static/css/2.679831fc.chunk.css": "/star-wars-hero/static/css/2.679831fc.chunk.css",
+    "static/js/2.342be5e1.chunk.js": "/star-wars-hero/static/js/2.342be5e1.chunk.js",
+    "static/js/2.342be5e1.chunk.js.map": "/star-wars-hero/static/js/2.342be5e1.chunk.js.map",
+    "index.html": "/star-wars-hero/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/star-wars-hero/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.8523f3ea.chunk.css.map": "/star-wars-hero/static/css/main.8523f3ea.chunk.css.map",
+    "static/js/2.342be5e1.chunk.js.LICENSE.txt": "/star-wars-hero/static/js/2.342be5e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c5af18a.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.342be5e1.chunk.js",
+    "static/css/main.8523f3ea.chunk.css",
+    "static/js/main.edcdde26.chunk.js"
+  ]
+}
