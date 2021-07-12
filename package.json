@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Diego Lavayen Alarcon",
+  "homepage": "http://iakomus.github.io/star-wars-hero",
   "dependencies": {
     "@axe-core/react": "^4.2.2",
     "@reduxjs/toolkit": "^1.6.0",
@@ -27,7 +28,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --verbose",
     "test:ci": "CI=true yarn test",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -67,6 +70,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3",
     "pre-commit": "^1.2.2",
     "prettier": "^2.3.2"
   },
